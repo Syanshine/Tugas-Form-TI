@@ -1,0 +1,50 @@
+form { 
+margin: 0 auto;
+width: 500px;
+padding: 1em 2em;
+border: 1px solid #CACACA;
+border-radius: 10px;
+font-family: 'Calibri', Arial, sans-serif;
+}
+
+
+label {
+margin: 4px;
+padding: 8px;
+text-align: right;
+display: inline-block;
+width: 100px;
+vertical-align: top;
+}
+
+input, textarea, select {
+    margin: 4px;
+    padding: 8px;
+    width: 250px;
+}
+
+#btnrst {
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    width: 47%;
+    border: none;
+    background-color: #c00000;
+}
+
+#btnrst:hover {
+    background-color: #900000;
+}
+
+#btnsbmt {
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    width: 47%;
+    border: none;
+    background-color: green;
+}
+
+#btnsbmt:hover {
+    background-color: darkgreen;
+}
